@@ -1,0 +1,49 @@
+:root {
+  /* Globale variabler */
+}
+
+body {
+  min-height: 100vh;
+  min-height: 100svh;
+  min-width: 100vw;
+  min-width: 100svw;
+  padding-top: 2rem;
+  margin: 0;
+}
+
+nav {
+  background-color: blue;
+  color: white;
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  text-align: center;
+  padding: 1rem 0;
+  border: solid 2px black;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+h1 {
+  color: white;
+  background-color: #3a9e6e;
+  border: solid 3px black;
+  font-size: 30px;
+  text-align: center;
+  text-shadow: 2px 2px 2px black;
+  padding: 10px 200px;
+}
+
+.favorite-color {
+  color: red;
+  padding: 10px 0;
+  border: solid 2px black;
+}
+
+#second-favorite-color {
+  color: blue;
+  background-color: red;
+}
